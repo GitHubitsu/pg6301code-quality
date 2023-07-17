@@ -1,6 +1,23 @@
 {
   "name": "code-quality",
   "version": "1.0.0",
+  "description": "* [ ] Create react application with parcel * [ ] Jest * [ ] Snapshot tests   * Testing rendering * [ ] Simulator testint   * Testing submission * [ ] GitHub Actions * [ ] Coverage coveralls.io * [ ] Prettier * [ ] Typescript * [ ] Eslint (?)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1"
   }
 }
