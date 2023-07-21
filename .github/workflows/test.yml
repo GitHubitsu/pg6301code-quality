@@ -19,4 +19,8 @@ jobs:
       - name: Install modules
         run: npm install
       - name: Run tests
-        run: npm run test
+        run: npm run verify
+      - name: Coveralls
+        uses: coverallsapp/github-action@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
