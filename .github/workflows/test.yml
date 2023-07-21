@@ -21,6 +21,6 @@ jobs:
       - name: Run tests
         run: npm run verify
       - name: Coveralls
-        uses: coveralls-app/github-action@main
+        uses: coverallsapp/github-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
