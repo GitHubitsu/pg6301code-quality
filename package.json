@@ -8,6 +8,10 @@
     "test": "jest",
     "verify": "jest --collectCoverage"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitHubitsu/pg6301code-quality.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -30,7 +34,7 @@
   "jest": {
     "testEnvironment": "jsdom",
     "collectCoverageFrom": [
-      ".jsx"
+      "*.jsx"
     ]
   },
   "babel": {

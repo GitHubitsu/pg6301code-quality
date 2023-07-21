@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2d86f72-238d-4673-8958-697e2c8a124a" name="Changes" comment="Minimal React Application">
-      <change afterPath="$PROJECT_DIR$/__tests__/movies.test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="c2d86f72-238d-4673-8958-697e2c8a124a" name="Changes" comment="Add coverage to GitHub Actions (fix yet again)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-quality.iml" beforeDir="false" afterPath="$PROJECT_DIR$/code-quality.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,28 +34,48 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/Users/tomsr/Documents/Utvikling/Sites/hosts/react/kristiania/webutvikling-og-api-design/johannes/forelesning3/code-quality/node_modules/jest",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/tomsr/Documents/Utvikling/Sites/hosts/react/kristiania/webutvikling-og-api-design/johannes/forelesning3/code-quality/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Jest.All Tests">
+}</component>
+  <component name="RecentsManager">
+    <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/application.jsx" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.movies application">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="movies application" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__tests__/movies.test.jsx" />
+      <test-names>
+        <test-name value="movies application" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/code-quality/coverage/lcov-report/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -71,6 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.movies application" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Jest.All Tests" />
         <item itemvalue="npm.test" />
       </list>
@@ -85,6 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1689625878650</updated>
       <workItem from="1689625879682" duration="8297000" />
+      <workItem from="1689803658568" duration="18993000" />
+      <workItem from="1689938309653" duration="1177000" />
     </task>
     <task id="LOCAL−00001" summary="Plan for the lecture">
       <created>1689626343499</created>
@@ -98,7 +121,97 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1689627114430</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Minimal Jest snapshot test">
+      <created>1689852367258</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1689852367258</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Update snapshot">
+      <created>1689852554530</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1689852554530</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Add snapshot test for &lt;NewMovieForm /&gt;">
+      <created>1689853267601</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1689853267601</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Add Simulate test for &lt;NewMovieForm /&gt;">
+      <created>1689866008138</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1689866008138</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Add Simulate test for &lt;NewMovieForm /&gt;">
+      <created>1689866103323</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1689866103323</updated>
+    </task>
+    <task id="LOCAL−00008" summary="GitHub Actions workflow file">
+      <created>1689883198014</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1689883198014</updated>
+    </task>
+    <task id="LOCAL−00009" summary="GitHub Actions workflow file (bogdan)">
+      <created>1689883921959</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1689883921959</updated>
+    </task>
+    <task id="LOCAL−00010" summary="Add coverage to GitHub Actions">
+      <created>1689934561273</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1689934561273</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Add coverage to GitHub Actions (fix)">
+      <created>1689934770462</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1689934770462</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Add coverage to GitHub Actions (fix again)">
+      <created>1689934996571</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1689934996571</updated>
+    </task>
+    <task id="LOCAL−00013" summary="Add coverage to GitHub Actions (fix yet again)">
+      <created>1689935100953</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1689935100953</updated>
+    </task>
+    <task id="LOCAL−00014" summary="Add coverage to GitHub Actions (fix yet again)">
+      <created>1689935595668</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1689935595668</updated>
+    </task>
+    <task id="LOCAL−00015" summary="Add coverage to GitHub Actions (fix yet again)">
+      <created>1689935746481</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1689935746481</updated>
+    </task>
+    <task id="LOCAL−00016" summary="Add coverage to GitHub Actions (fix yet again)">
+      <created>1689936647226</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1689936647226</updated>
+    </task>
+    <task id="LOCAL−00017" summary="Add coverage to GitHub Actions (fix yet again)">
+      <created>1689936748262</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1689936748262</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +220,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Plan for the lecture" />
     <MESSAGE value="Minimal React Application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minimal React Application" />
+    <MESSAGE value="Minimal Jest snapshot test" />
+    <MESSAGE value="Update snapshot" />
+    <MESSAGE value="Add snapshot test for &lt;NewMovieForm /&gt;" />
+    <MESSAGE value="Add Simulate test for &lt;NewMovieForm /&gt;" />
+    <MESSAGE value="GitHub Actions workflow file" />
+    <MESSAGE value="GitHub Actions workflow file (bogdan)" />
+    <MESSAGE value="Add coverage to GitHub Actions" />
+    <MESSAGE value="Add coverage to GitHub Actions (fix)" />
+    <MESSAGE value="Add coverage to GitHub Actions (fix again)" />
+    <MESSAGE value="Add coverage to GitHub Actions (fix yet again)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add coverage to GitHub Actions (fix yet again)" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/code_quality$All_Tests.info" NAME="All Tests Coverage Results" MODIFIED="1689891082015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/code_quality$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1689938275472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/code_quality$movies_application.info" NAME="movies application Coverage Results" MODIFIED="1689938385607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
