@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2d86f72-238d-4673-8958-697e2c8a124a" name="Changes" comment="Add coverage to GitHub Actions (fix yet again)">
+    <list default="true" id="c2d86f72-238d-4673-8958-697e2c8a124a" name="Changes" comment="Add build badges to README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/movies.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/movies.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/application.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +111,7 @@
       <updated>1689625878650</updated>
       <workItem from="1689625879682" duration="8297000" />
       <workItem from="1689803658568" duration="18993000" />
-      <workItem from="1689938309653" duration="2508000" />
+      <workItem from="1689938309653" duration="6921000" />
     </task>
     <task id="LOCAL−00001" summary="Plan for the lecture">
       <created>1689626343499</created>
@@ -216,7 +221,13 @@
       <option name="presentableId" value="LOCAL−00018" />
       <updated>1689947220622</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="Add build badges to README">
+      <created>1689958320036</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1689958320036</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +246,8 @@
     <MESSAGE value="Add coverage to GitHub Actions (fix)" />
     <MESSAGE value="Add coverage to GitHub Actions (fix again)" />
     <MESSAGE value="Add coverage to GitHub Actions (fix yet again)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add coverage to GitHub Actions (fix yet again)" />
+    <MESSAGE value="Add build badges to README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add build badges to README" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code_quality$All_Tests.info" NAME="All Tests Coverage Results" MODIFIED="1689891082015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

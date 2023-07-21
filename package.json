@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "parcel index.html",
     "test": "jest",
-    "verify": "jest --collectCoverage"
+    "format": "prettier --write *.{jsx,js} __tests__/**/*.{jsx,js}",
+    "format:check": "prettier --check *.{jsx,js} __tests__/**/*.{jsx,js}",
+    "verify": "npm run format:check && jest --collectCoverage"
   },
   "repository": {
     "type": "git",
@@ -20,11 +22,12 @@
     "@babel/preset-react": "^7.22.5",
     "babel-jest": "^29.6.1",
     "jest": "^29.6.1",
-    "parcel": "^2.9.3",
-    "process": "^0.11.10",
-    "rimraf": "^5.0.1",
     "jest-environment-jsdom": "^29.6.1",
-    "jsdom": "^22.1.0"
+    "jsdom": "^22.1.0",
+    "parcel": "^2.9.3",
+    "prettier": "^3.0.0",
+    "process": "^0.11.10",
+    "rimraf": "^5.0.1"
   },
   "dependencies": {
     "react": "^18.2.0",
